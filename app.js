@@ -94,7 +94,7 @@ function getUserInput(callback) {
         input: process.stdin,
         output: process.stdout
     });
-    rl.question('請輸入 YouTube 視頻連結：', (url) => {
+    rl.question('請輸入 YouTube 影片連結：', (url) => {
         rl.close();
         callback(url);
     });
